@@ -5,13 +5,12 @@ import MindMap from './components/MindMap';
 import Note from './components/Note';
 import Steicky from './components/Steicky';
 
+
 function App() {
   return (
     <>
       <LamanUtama />
       <LandingPage />
-      <MindMap />
-      <Note />
       <Steicky />
 
     </>
