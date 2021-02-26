@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function LamanUtama() {
   return (
-    <section id="LamanUtama" className="  bg-gray-100 || md:h-screen"  >
-      <h2 className="text-center text-4xl font-extrabold font-monospace p-3 py-9 mb-7 || md:p-10">LAMAN UTAMA</h2>
+    <section id="LamanUtama" className="  bg-gray-100 || md:h-screen md:px-20 "  >
+      <h2 className="text-center text-4xl font-extrabold font-monospace py-12 mb-5 || md:pt-16 ">LAMAN UTAMA</h2>
       <div className="grid grid-cols-5 md:grid-cols-12 gap-4">
         <div className=" col-span-5  bg-likepurple h-auto p-7 || md:col-span-7 md:ml-6 mx-3 ">
 
@@ -34,7 +34,7 @@ export default function LamanUtama() {
           </p>
         </div>
         <div className="col-span-1"></div>
-        <div className="col-span-3 md:col-span-3  justify-center inline-block ">
+        <div className="col-span-3 md:col-span-3  justify-center inline-block pb-10 ">
 
           <div className="bg-likestrongblue  m-3 p-2 text-white text-xl   rounded-lg ">
             <p className="text-center">Tekanan, Suhu dan Isipadu Gas</p>

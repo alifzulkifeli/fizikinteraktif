@@ -5,9 +5,8 @@ import Embed from 'react-embed';
 
 export default function MindMap() {
   return (
-
-    <section id="LamanUtama" className="  || md:h-screen"  >
-      <h2 className="text-center text-4xl font-extrabold font-monospace p-3 py-9 mb-7 || md:p-10">PETA KONSEP</h2>
+    <section id="MindMap" className=" "  >
+      <h2 h2 className="text-center text-4xl font-extrabold font-monospace p-3 py-9 mb-7 || md:p-10" > PETA KONSEP</h2 >
 
       <div className="flex justify-center ">   <Zoom>
         <img
@@ -19,6 +18,7 @@ export default function MindMap() {
       </Zoom>
         <Embed url='' />
       </div>
+
     </section >
 
   )
