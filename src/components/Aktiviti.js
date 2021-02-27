@@ -1,5 +1,4 @@
 import React from 'react'
-import Embed from 'react-embed';
 import Simulation from './Simulation';
 
 export default function Aktiviti() {

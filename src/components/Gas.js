@@ -4,7 +4,7 @@ import Note from './Note';
 import Aktiviti from './Aktiviti';
 import Kuiz from './Kuiz';
 
-export default function Steicky() {
+export default function Gas() {
   const [parentCounter, setParentCounter] = useState("Nota");
 
   return (
