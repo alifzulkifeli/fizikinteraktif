@@ -3,6 +3,7 @@ import LandingPage from './components/LandingPage';
 import LamanUtama from './components/LamanUtama';
 import Gas from './components/Gas';
 import { useState } from 'react';
+import MindMap1 from './components/gas/MindMap1';
 
 
 
@@ -16,6 +17,7 @@ function App() {
     <>
       <LandingPage />
       <LamanUtama />
+      <MindMap1 />
 
       <div className="flex justify-center mt-11">
         <div class="relative inline-flex justify-center">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function NavBar({ setParentCounter }) {
+export default function NavBar1({ setParentCounter }) {
 
   const active = "no-underline text-teal-dark border-b-2 border-likestrongblue uppercase tracking-wide font-bold text-xs py-3 mr-8 focus:outline-none"
   const passive = "no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8 "

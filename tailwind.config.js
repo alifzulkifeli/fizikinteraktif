@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        likepink: '#fdcbcb',
+        likepink: '#FFD9D9',
         likeblue: '#7a80be',
         likepurple: '#a3a8dc',
         likestrongblue: "#1862a8"

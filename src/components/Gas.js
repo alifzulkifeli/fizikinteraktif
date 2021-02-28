@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
-import NavBar from './NavBar';
-import Note from './Note';
-import Aktiviti from './Aktiviti';
-import Kuiz from './Kuiz';
+import Kuiz1 from './gas/Kuiz1';
+import Aktiviti1 from './gas/Aktiviti1';
+import Note1 from './gas/Note1';
+import NavBar1 from './gas/NavBar1';
+
+
 
 export default function Gas() {
   const [parentCounter, setParentCounter] = useState("Nota");
@@ -10,10 +12,10 @@ export default function Gas() {
   return (
 
     <div>
-      <NavBar setParentCounter={setParentCounter} />
-      { parentCounter === "Nota" && <Note />}
-      { parentCounter === "Aktiviti" && <Aktiviti />}
-      { parentCounter === "Kuiz" && <Kuiz />}
+      <NavBar1 setParentCounter={setParentCounter} />
+      { parentCounter === "Nota" && <Note1 />}
+      { parentCounter === "Aktiviti" && <Aktiviti1 />}
+      { parentCounter === "Kuiz" && <Kuiz1 />}
     </div>
 
   )

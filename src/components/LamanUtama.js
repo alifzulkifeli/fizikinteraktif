@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LamanUtama() {
   return (
-    <section id="LamanUtama" className="  bg-gray-100 || md:h-screen md:px-20 "  >
+    <section id="LamanUtama" className="  || md:h-screen md:px-20 "  >
       <h2 className="text-center text-4xl font-extrabold font-monospace py-12 mb-5 || md:pt-16 ">LAMAN UTAMA</h2>
       <div className="grid grid-cols-5 md:grid-cols-12 gap-4">
         <div className=" col-span-5  bg-likepurple h-auto p-7 || md:col-span-7 md:ml-6 mx-3 ">
