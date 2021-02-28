@@ -14,6 +14,7 @@ function App() {
     setCurrentTajuk(e.target.value)
   }
   return (
+
     <>
       <LandingPage />
       <LamanUtama />
