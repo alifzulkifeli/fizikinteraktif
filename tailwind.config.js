@@ -7,7 +7,8 @@ module.exports = {
         likepink: '#FFD9D9',
         likeblue: '#7a80be',
         likepurple: '#a3a8dc',
-        likestrongblue: "#1862a8"
+        likestrongblue: "#1862a8",
+        likegray: "#C4C4C4"
       }
     },
   },
