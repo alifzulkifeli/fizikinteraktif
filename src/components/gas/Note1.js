@@ -1,14 +1,10 @@
-import React from 'react'
-import Note from '../Note';
-
-
+import React from 'react';
 
 export default function Note1() {
   return (
-    <>
-      <Note url="/img/nota/note-2-1.png" />
-      <Note url="/img/nota/note-3-1.png" />
-      <Note url="/img/nota/note-4-1.png" />
-    </>
-  )
+    <object data="nota1.pdf" type="application/pdf" className="h-screen w-screen">
+ 
+</object> 
+  );
 }
+
