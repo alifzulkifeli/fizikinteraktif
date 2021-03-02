@@ -17,6 +17,9 @@ function App() {
   return (
 
     <>
+    <div className="grid grid-cols-5 xl:grid-cols-24">
+      <div className="xl:col-span-1 2xl:col-span-2"></div>
+      <div className=" col-span-5   xl:col-span-10 2xl:col-span-8">
       <LandingPage />
       <LamanUtama />
       <MindMap1 />
@@ -41,6 +44,9 @@ function App() {
       { currentTajuk === "boyle" && <Boyle />}
       { currentTajuk === "charles" && <h1>hello render charles</h1>}
       { currentTajuk === "lussac" && <h1>hello render lussac</h1>}
+
+      </div>
+    </div>
 
     </>
 

@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function LandingPage() {
   return (
-    <section id="LandingPage" className=" bg-gray-100   pt-16 || md:h-screen"  >
+    <section id="LandingPage" className=" bg-gray-100 || md:h-auto"  >
 
-      <div className="grid grid-cols-3 md:grid-cols-12 gap-4 || md:pt-20">
+      <div className="grid grid-cols-3 md:grid-cols-12 gap-4 || md:pb-20">
         <div className=" col-span-3  bg-gradient-to-b  from-likeblue  to-purple-100  h-auto mt-2 || md:mt-14  md:col-span-7 md:ml-6 mx-3">
           <div className=" col-span-3  bg-likepink  h-auto mx-4 rounded-lg py-6 mt-9  || md:mx-20   md:col-span-7   ">
             <p className="text-center text-2xl font-mono font-bold font-purple">MODUL PEMBELAJARAN INTERAKTIF</p>

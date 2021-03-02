@@ -134,7 +134,7 @@ export default function FIB1() {
       {error && <p className="  text-center  text-red-400">{error} </p>}
       <div className="flex justify-center  pb-16">
 
-        <button className="bg-blue-500 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6" onClick={handleClick} >Periksa Jawapan</button>
+        <button className="bg-blue-500 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6" onClick={handleClick} >Semak Jawapan</button>
       </div>
 
     </div>
