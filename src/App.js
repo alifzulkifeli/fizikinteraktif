@@ -5,6 +5,9 @@ import Gas from './components/Gas';
 import { useState } from 'react';
 import MindMap1 from './components/gas/MindMap1';
 import Boyle from './components/Boyle';
+import Charles from './components/Charles';
+import Lussac from './components/Lussac';
+import Last from './components/Last';
 
 
 
@@ -42,8 +45,9 @@ function App() {
       { currentTajuk === "tajuk" && <h1 className="text-center text-2xl font-extrabold font-monospace  text-red-700 p-3 py-9  mb-56 || md:p-10">Pilih Salah Satu Daripada Tajuk Diatas</h1>}
       { currentTajuk === "gas" && <Gas />}
       { currentTajuk === "boyle" && <Boyle />}
-      { currentTajuk === "charles" && <h1>hello render charles</h1>}
-      { currentTajuk === "lussac" && <h1>hello render lussac</h1>}
+      { currentTajuk === "charles" && <Charles/>}
+      { currentTajuk === "lussac" && <Lussac/>}
+      { currentTajuk === "last" && <Last/>}
 
       </div>
     </div>
