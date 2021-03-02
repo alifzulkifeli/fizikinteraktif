@@ -17,7 +17,7 @@ export default function Note({ url }) {
       </Zoom>
       </div>
 
-      <img className=" md:block h-96 mx-auto hidden" src={url} alt="" />
+      <img className=" md:block  h-100 mx-auto hidden" src={url} alt="" />
 
     </div >
   )
