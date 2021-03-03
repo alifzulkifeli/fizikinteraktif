@@ -1,6 +1,6 @@
 
-import LandingPage from './components/LandingPage';
-import LamanUtama from './components/LamanUtama';
+// import LandingPage from './components/LandingPage';
+// import LamanUtama from './components/LamanUtama';
 import Gas from './components/Gas';
 import { useState } from 'react';
 import MindMap1 from './components/gas/MindMap1';
