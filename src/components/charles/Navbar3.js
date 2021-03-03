@@ -5,18 +5,24 @@ export default function Navbar3({ setParentCounter }) {
   const passive = "no-underline text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8 "
   const [cls1, setCls1] = useState(active)
   const [cls2, setCls2] = useState(passive)
+  const [cls3, setCls3] = useState(passive)
 
 
   const handleClick = (name) => {
     if (name === "Nota") {
       setCls1(active)
       setCls2(passive)
-
+      setCls3(passive)
 
     } else if (name === "Aktiviti") {
       setCls1(passive)
       setCls2(active)
-
+      setCls3(passive)
+    }
+    else if (name === "Latihan") {
+      setCls1(passive)
+      setCls2(passive)
+      setCls3(active)
     }
     setParentCounter(name)
   }
@@ -28,6 +34,9 @@ export default function Navbar3({ setParentCounter }) {
         </button>
         <button className={cls2} onClick={() => handleClick("Aktiviti")}>
           Aktiviti
+        </button>
+        <button className={cls3} onClick={() => handleClick("Latihan")}>
+        Latihan
         </button>
       </div>
     </nav>
