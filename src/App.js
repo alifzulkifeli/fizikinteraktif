@@ -8,6 +8,9 @@ import Boyle from './components/Boyle';
 import Charles from './components/Charles';
 import Lussac from './components/Lussac';
 import Last from './components/Last';
+import Im1 from './components/Im1';
+import Im2 from './components/Im2';
+import Im3 from './components/Im3';
 
 
 
@@ -23,8 +26,11 @@ function App() {
     <div className="grid grid-cols-5 xl:grid-cols-24">
       <div className="xl:col-span-1 2xl:col-span-2"></div>
       <div className=" col-span-5   xl:col-span-10 2xl:col-span-8">
-      <LandingPage />
-      <LamanUtama />
+      {/* <LandingPage /> */}
+      <Im1/>
+      <Im2/>
+      <Im3/>
+      {/* <LamanUtama /> */}
       <MindMap1 />
 
       <div className="flex justify-center mt-11">
