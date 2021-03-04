@@ -5,8 +5,8 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 export default function MindMap1() {
   return (
-    <section id="MindMap" className=" bg-likewhite pb-10 "  >
-      <h2 h2 className="text-center text-4xl font-extrabold font-monospace p-3 py-9 mb-7 || md:p-10" > PETA KONSEP</h2 >
+    <section id="MindMap" className=" bg-likewhite p-10 "  >
+      
 
       <div className="flex justify-center ">   <Zoom>
         <img

@@ -48,7 +48,7 @@ function App() {
         </div>
       </div>
 
-      { currentTajuk === "tajuk" && <h1 className="text-center text-2xl font-extrabold font-monospace  text-red-700 p-3 py-9  mb-56 || md:p-10">Pilih Salah Satu Daripada Tajuk Diatas</h1>}
+      { currentTajuk === "tajuk" && <h1 className="text-center text-2xl font-extrabold font-monospace  text-likeblue p-3 py-9  mb-56 || md:p-10">Pilih Salah Satu Daripada Tajuk Diatas</h1>}
       { currentTajuk === "gas" && <Gas />}
       { currentTajuk === "boyle" && <Boyle />}
       { currentTajuk === "charles" && <Charles/>}
