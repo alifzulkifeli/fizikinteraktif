@@ -9,7 +9,7 @@ export default function FIB1() {
   const [six, setSix] = useState("")
   const [seven, setSeven] = useState("")
   const [eight, setEight] = useState("")
-  const neutral = "rounded-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+  const neutral = "rounded-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white w-20"
   const [sone, ssetOne] = useState(neutral)
   const [stwo, ssetTwo] = useState(neutral)
   const [sthree, ssetThree] = useState(neutral)
@@ -20,8 +20,8 @@ export default function FIB1() {
   const [seight, ssetEight] = useState(neutral)
   const [error, setError] = useState("")
   const answer = ["rawak", "memenuhi", "dinding bekas", "bertambah", "bertambah", "dimalarkan", "tetap", "tinggi", "daya"]
-  const right = "rounded-lg border-t mr-0 border-b border-l  font-semibold text-green-800 border-gray-200 bg-white"
-  const wrong = "rounded-lg border-t mr-0 border-b border-l text-red-800 border-gray-200 bg-white"
+  const right = "rounded-lg border-t mr-0 border-b border-l  font-semibold text-green-800 border-gray-200 bg-white w-20 "
+  const wrong = "rounded-lg border-t mr-0 border-b border-l text-red-800 border-gray-200 bg-white w-20 "
 
   const handleClick = () => {
     if (one && two && three && four && five && six && seven && eight) {

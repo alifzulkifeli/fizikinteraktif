@@ -5,15 +5,15 @@ export default function Latihan4() {
   const [two, setTwo] = useState("")
   const [three, setThree] = useState("")
 
-  const neutral = "rounded-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white"
+  const neutral = "rounded-lg border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white w-20"
   const [sone, ssetOne] = useState(neutral)
   const [stwo, ssetTwo] = useState(neutral)
   const [sthree, ssetThree] = useState(neutral)
 
   const [error, setError] = useState("")
   const answer = ["meningkat", "meningkatkan ", "tinggi ", "rendah", "berkurang", "bertambah", "tinggi ", "rendah"]
-  const right = "rounded-lg border-t mr-0 border-b border-l  font-semibold text-green-800 border-gray-200 bg-white"
-  const wrong = "rounded-lg border-t mr-0 border-b border-l text-red-800 border-gray-200 bg-white"
+  const right = "rounded-lg border-t mr-0 border-b border-l  font-semibold text-green-800 border-gray-200 bg-white w-20"
+  const wrong = "rounded-lg border-t mr-0 border-b border-l text-red-800 border-gray-200 bg-white w-20"
 
   const handleClick = () => {
     if (one && two && three ) {//&& four && five && six && seven && eight
