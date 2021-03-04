@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from 'react';
+import SinglePage from '../singlePage';
+import note1 from "./chap5.pdf"
 export default function Note5() {
   return (
-    <object data="nota5.pdf" type="application/pdf" className="h-screen w-screen">
- 
-    </object> 
+    <div >
+    <SinglePage pdf={note1} />
+  </div>
   )
 }
