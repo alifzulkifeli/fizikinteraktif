@@ -48,20 +48,35 @@ export default function SinglePage(props) {
       >
         <Page pageNumber={pageNumber} />
       </Document> */}
-      <div className="w-screen">
-        <p>
+      <div>
+        <p className="text-center m-3">
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
-        <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
-          Previous
+        <div className="flex justify-center m-3">
+ <button
+        
+        className="bg-likepurple hover:bg-likeblue text-white font-bold py-2 px-4 border border-likeblue rounded mr-4"
+        
+        type="button" disabled={pageNumber <= 1} onClick={previousPage}>
+
+
+          Kembali
         </button>
         <button
+
+        className="bg-likepurple hover:bg-likeblue text-white font-bold py-2 px-4 border border-likeblue rounded disabled:opacity-50"
           type="button"
           disabled={pageNumber >= numPages}
           onClick={nextPage}
         >
-          Next
+          Seterusnya
         </button>
+
+        </div>
+       
+
+
+ 
       </div>
     </div>
   );
