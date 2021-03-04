@@ -96,7 +96,7 @@ export default function Latihan2() {
       <div className="grid grid-cols-12 gap-4 mb-8">
         <div className=" col-span-1 "></div>
         <div className="  bg-likepurple rounded-xl  col-span-10 h-auto p-5 mx-7">
-          <p>Semasa menarik piston picagari, isi padu udara di dalam picagari bertambah   <input value={one} class={sone} onChange={(e) => { setOne(e.target.value) }} />. </p>
+          <p>Semasa menarik piston picagari, isi padu udara di dalam picagari  <input value={one} class={sone} onChange={(e) => { setOne(e.target.value) }} />. </p>
         </div>
       </div>
 
@@ -133,7 +133,7 @@ export default function Latihan2() {
       <div className="grid grid-cols-12 gap-4 mb-8">
         <div className=" col-span-1 "></div>
         <div className="  bg-likepurple rounded-xl  col-span-10 h-auto p-5 mx-7">
-          <p>Tekanan udara yang <input value={seven} class={sseven} onChange={(e) => { setSeven(e.target.value) }} />  tinggi di dalam picagari menolak keluar cecair ke luar picagari yang mempunyai tekanan atmosfera yang lebih <input value={eight} class={seight} onChange={(e) => { setEight(e.target.value) }} /> .  </p>
+          <p>Tekanan udara yang lebih <input value={seven} class={sseven} onChange={(e) => { setSeven(e.target.value) }} />  di dalam picagari menolak keluar cecair ke luar picagari yang mempunyai tekanan atmosfera yang lebih <input value={eight} class={seight} onChange={(e) => { setEight(e.target.value) }} /> .  </p>
         </div>
       </div>
       {error && <p className="  text-center  text-red-400">{error} </p>}

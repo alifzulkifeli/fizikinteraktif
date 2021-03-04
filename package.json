@@ -12,6 +12,7 @@
     "react-medium-image-zoom": "^4.3.1",
     "react-pdf": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-sizeme": "^3.0.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
