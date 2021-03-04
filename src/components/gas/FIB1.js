@@ -88,7 +88,7 @@ export default function FIB1() {
 
 
   return (
-    <div className="hidden md:block h-auto bg-likepink">
+    <div className="h-auto bg-likepink">
       <h2 className="text-center text-xl font-extrabold font-monospace mb-5 || md:pt-16 ">AKTIVITI:  MEMERHATIKAN KELAKUAN MOLEKUL GAS MELALUI SIMULASI KOMPUTER</h2>
       <h2 className="text-center text-md font-medium font-monospace  mb-5 ">Dengan menggunakan bantuan simulasi kelakuan molekul gas tersebut, isikan jadual tersebut dengan jawapan yang sesuai.</h2>
 

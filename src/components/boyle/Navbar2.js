@@ -33,7 +33,7 @@ export default function NavBar2({ setParentCounter }) {
         <button className={cls1} onClick={() => handleClick("Nota")}>
           Nota
         </button>
-        <button className={cls2} onClick={() => handleClick("Aktiviti")}>
+        <button className={cls2 + "hidden md:block"} onClick={() => handleClick("Aktiviti")}>
           Aktiviti
         </button>
         <button className={cls3} onClick={() => handleClick("Latihan")}>
