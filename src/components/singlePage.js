@@ -40,7 +40,7 @@ export default function SinglePage(props) {
 
   return (
     <>
-    <div>
+    <div >
         <div className="flex justify-center m-3">
  <button
         className="bg-likepurple hover:bg-likeblue text-white font-bold py-2 px-1 border border-likeblue rounded mr-4"

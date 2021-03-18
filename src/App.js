@@ -56,6 +56,7 @@ function App() {
       { currentTajuk === "last" && <Last/>}
 
       </div>
+   
     </div>
 
     </>
