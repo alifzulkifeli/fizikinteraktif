@@ -29,7 +29,7 @@ export default function SinglePage(props) {
       if (newWindow) newWindow.opener = null
     }
 
-    if (props.file) {
+    if (pageNumber === props.num2) {
       const newWindow = window.open( props.file , '_blank', 'noopener,noreferrer')
       if (newWindow) newWindow.opener = null
     }
